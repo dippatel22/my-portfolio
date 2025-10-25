@@ -188,17 +188,17 @@ const handleSubmit = async (e: React.FormEvent) => {
             <div className="flex flex-col gap-3">
               {/* ✅ Modified Resume Download Button */}
               <Button
-                className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
-                onClick={() => {
-                  const link = document.createElement('a');
-                  link.href = '../public/resume.pdf';
-                  link.download = 'Dip_Patel_Resume.pdf';
-                  link.click();
-                }}
-              >
-                <Download className="mr-2 h-4 w-4" />
-                Download Resume
-              </Button>
+  className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
+  onClick={() => {
+    const link = document.createElement('a');
+    link.href = '/resume.pdf'; // ✅ Correct path
+    link.download = 'Dip_Patel_Resume.pdf';
+    link.click();
+  }}
+>
+  <Download className="mr-2 h-4 w-4" />
+  Download Resume
+</Button>
 
               <div className="flex gap-2">
                 <Button variant="outline" size="sm" className="flex-1" asChild>

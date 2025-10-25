@@ -21,12 +21,12 @@ const Hero = () => {
         <div className="text-center space-y-8">
           {/* Profile Image (enlarged, border removed) */}
           <div className="relative mx-auto w-40 h-40">
-            <img
-              src="../public/emoji.webp"
-              alt="Profile"
-              className="w-full h-full rounded-full object-cover shadow-lg"
-            />
-          </div>
+  <img
+    src="/emoji.webp" // ✅ Correct path for Vercel
+    alt="Profile"
+    className="w-full h-full rounded-full object-cover shadow-lg"
+  />
+</div>
 
           {/* Name and Title */}
           <div className="space-y-4 animate-in fade-in slide-in-from-bottom-8 duration-700">

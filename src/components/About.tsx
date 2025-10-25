@@ -86,7 +86,8 @@ const About = () => {
               <div className="text-center space-y-4">
                 <div className="w-32 h-32 rounded-full bg-gradient-to-br from-blue-600 to-purple-600 p-1 mx-auto">
                   <div className="w-full h-full rounded-full bg-background flex items-center justify-center">
-                   <img src="../public/profile_pic.webp" alt="Profile" className="w-full h-full object-cover rounded-full" />
+                   <img src="/profile_pic.webp" alt="Profile" className="w-full h-full object-cover rounded-full" />
+
 
                   </div>
                 </div>
