@@ -22,7 +22,7 @@ const Hero = () => {
           {/* Profile Image (enlarged, border removed) */}
           <div className="relative mx-auto w-40 h-40">
             <img
-              src="../src/assets/emoji.webp"
+              src="../public/emoji.webp"
               alt="Profile"
               className="w-full h-full rounded-full object-cover shadow-lg"
             />

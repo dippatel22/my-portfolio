@@ -191,7 +191,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                 className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
                 onClick={() => {
                   const link = document.createElement('a');
-                  link.href = '../src/assets/resume.pdf';
+                  link.href = '../public/resume.pdf';
                   link.download = 'Dip_Patel_Resume.pdf';
                   link.click();
                 }}
